@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a17b973f12.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="continer">
+            <nav>
+                <!-- <img src="images/logo.jpg" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+
+                <a href="#contact" class="nav-btn">
+                    Hire Me
+                </a>
+
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+        </div>
+        <div class="hero-section">
+
+            <div class="hero-left">
+                <p class="hero-role"></p>
+
+                <h1>
+                    Hi, I'm <span>Ali Mujtaba</span>
+                    <br>
+                    From Pakistan
+                </h1>
+
+                <p class="hero-desc">
+                    I create modern websites, user-friendly interfaces and
+                    responsive web applications that deliver great user experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-hero">View Work</a>
+                    <a href="#contact" class="btn btn-outline">Hire Me</a>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="profile-card">
+                    <img src="images/ai.jpg" alt="Ali Mujtaba">
+
+                    <span class="badge badge1">HTML</span>
+                    <span class="badge badge2">CSS</span>
+                    <span class="badge badge3">JS</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- --------------------ABOUT---------------------- -->
+    <div id="about">
+        <div id="about">
+            <div class="continer">
+
+                <div class="about-header">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Passionate Software Engineering student focused on
+                        Web Development, UI/UX Design and creating modern digital
+                        experiences.
+                    </p>
+                </div>
+
+                <div class="about-card">
+
+                    <div class="about-image">
+                        <img src="images/ai.jpg">
+                    </div>
+
+                    <div class="about-content">
+
+                        <h2>Who Am I?</h2>
+
+                        <p>
+                            I am Ali Mujtaba, a Software Engineering student from Pakistan.
+                            I enjoy designing modern user interfaces and developing
+                            responsive websites that provide great user experiences.
+                        </p>
+
+                        <div class="about-stats">
+
+                            <div class="stat-box">
+                                <h3>10+</h3>
+                                <p>Projects</p>
+                            </div>
+
+                            <div class="stat-box">
+                                <h3>3+</h3>
+                                <p>Skills</p>
+                            </div>
+
+                            <div class="stat-box">
+                                <h3>2+</h3>
+                                <p>Years Learning</p>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+
+                        <!-- Keep your existing Skills / Experience / Education sections here -->
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Design Web App Interfaces</li>
+                                <li><span>Web Development</span><br>Build responsive websites</li>
+                                <li><span>App Development</span><br>Build mobile applications</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2023</span><br>Completing UI/UX Design course</li>
+                                <li><span>2024</span><br>Completing Web Development course</li>
+                                <li><span>2025</span><br>Completing App Development course</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2022 - Current</span><br>Pursuing Bachelor's Degree in Software Engineering
+                                </li>
+                                <li><span>2020 - 2022</span><br>Completed FSc in Computer Science</li>
+                                <li><span>2010 - 2020</span><br>Completed Early Education</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <section id="tech-stack">
+
+        <div class="continer">
+
+            <div class="section-heading">
+                <h1 class="sub-title">Tech Stack</h1>
+                <p>
+                    Technologies and tools I use to build modern applications.
+                </p>
+            </div>
+
+            <div class="tech-grid">
+
+                <div class="tech-item">HTML</div>
+                <div class="tech-item">CSS</div>
+                <div class="tech-item">JavaScript</div>
+                <div class="tech-item">React</div>
+                <div class="tech-item">Node.js</div>
+                <div class="tech-item">MongoDB</div>
+                <div class="tech-item">Git</div>
+                <div class="tech-item">GitHub</div>
+                <div class="tech-item">Figma</div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ---------------------SERVICES---------------------- -->
+    <div id="services">
+        <div class="continer">
+
+            <div class="section-heading">
+                <h1 class="sub-title">My Services</h1>
+                <p>
+                    I help businesses and individuals build modern,
+                    responsive and user-friendly digital solutions.
+                </p>
+            </div>
+
+            <div class="services-list">
+
+                <div class="service-card">
+
+                    <div class="service-top">
+                        <span>01</span>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <h2>Web Development</h2>
+
+                    <p>
+                        Build responsive websites and web applications
+                        with modern technologies and clean design.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </div>
+
+                <div class="service-card">
+
+                    <div class="service-top">
+                        <span>02</span>
+                        <i class="fa-solid fa-crop"></i>
+                    </div>
+
+                    <h2>UI/UX Design</h2>
+
+                    <p>
+                        Create attractive interfaces and improve
+                        user experience through modern design principles.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>Figma</span>
+                        <span>Wireframe</span>
+                        <span>Prototype</span>
+                    </div>
+
+                </div>
+
+                <div class="service-card">
+
+                    <div class="service-top">
+                        <span>03</span>
+                        <i class="fa-brands fa-app-store"></i>
+                    </div>
+
+                    <h2>App Development</h2>
+
+                    <p>
+                        Develop mobile applications with smooth
+                        performance and user-friendly interfaces.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>Android</span>
+                        <span>React</span>
+                        <span>Firebase</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ---------------------------PORTFOLIO---------------------- -->
+
+    <div id="portfolio">
+        <div class="continer">
+
+            <div class="section-heading">
+                <h1 class="sub-title">My Work</h1>
+                <p>
+                    Some of the projects and designs I have worked on to
+                    improve my development and design skills.
+                </p>
+            </div>
+
+            <div class="work-list">
+
+                <div class="work-card">
+
+                    <div class="work-image">
+                        <img src="images/work-1.png">
+                    </div>
+
+                    <div class="work-content">
+                        <h3>Hotel Website</h3>
+
+                        <p>
+                            A modern hotel website that helps
+                            users find and book accommodations.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>UI/UX</span>
+                            <span>Mobile App</span>
+                        </div>
+
+                        <a href="#" class="project-btn">
+                            View Project
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="work-card">
+
+                    <div class="work-image">
+                        <img src="images/work-2.png">
+                    </div>
+
+                    <div class="work-content">
+                        <h3>Tourism Website</h3>
+
+                        <p>
+                            A sleek travel booking platform with modern
+                            user experience and responsive design.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>Music</span>
+                            <span>Design</span>
+                        </div>
+
+                        <a href="#" class="project-btn">
+                            View Project
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="work-card">
+
+                    <div class="work-image">
+                        <img src="images/work-3.png">
+                    </div>
+
+                    <div class="work-content">
+                        <h3>Shopping App</h3>
+
+                        <p>
+                            An e-commerce application focused on smooth
+                            shopping experiences and modern layouts.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>E-Commerce</span>
+                            <span>Mobile App</span>
+                        </div>
+
+                        <a href="https://github.com/yourusername/project-name" target="_blank" class="project-btn">
+                            View Project
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- ------------------------CONTACT----------------------- -->
+
+    <div class="continer">
+
+        <div class="section-heading">
+            <h1 class="sub-title">
+                Let's Build Something Amazing Together
+            </h1>
+            <p>
+                Have a project idea or want to work together?
+                Feel free to get in touch.
+            </p>
+        </div>
+
+        <div class="contact-card">
+
+            <div class="contact-info">
+
+                <h2>Let's Work Together</h2>
+
+                <p>
+                    I'm always interested in new opportunities,
+                    collaborations and exciting projects.
+                </p>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>alygb1085@gmail.com</span>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+92 034 567 8900</span>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+
+                <a href="images/my-cv.pdf" download class="btn btn2">
+                    Download CV
+                </a>
+
+            </div>
+
+            <div class="contact-form">
+
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+
+                    <input type="email" placeholder="Your Email" required>
+
+                    <textarea rows="6" placeholder="Your Message"></textarea>
+
+                    <button type="submit" class="btn btn2">
+                        Send Message
+                    </button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <button id="topBtn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    <!-- ----------------------------FOOTER----------------------- -->
+    <footer class="footer">
+
+        <div class="continer">
+
+            <div class="footer-content">
+
+                <div class="footer-brand">
+                    <h2>Ali Mujtaba<span>.</span></h2>
+                    <p>
+                        Software Engineering Student, Web Developer
+                        and UI/UX Designer passionate about building
+                        modern digital experiences.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+
+                    <a href="#header">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="footer-bottom">
+                <p>
+                    © 2026 Ali Mujtaba. All Rights Reserved.
+                </p>
+            </div>
+
+        </div>
+
+
+    </footer>
+
+    <button id="topBtn" onclick="window.scrollTo(0,0)">
+    ↑
+</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
